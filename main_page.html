@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Img/favicon-16x16.png" type="image/x-icon">
+    <script src="/Prism/prism.js.js"></script>
+    <link rel="stylesheet" href="/Prism/prism.css.css">
+    <link rel="stylesheet" href="style_main.css">
+    <title>Portfólio</title>
+</head>
+<body>
+     <!--navbar com o menu  principal contatos portfolio serviços-->
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Port<span>fólio</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Principal</a></li>
+                <li><a href="#about">Serviços</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Principal-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Olá, meu nome é</div>
+                <div class="text-2">Arthur Andrade</div>
+                <div class="text-3">eu sou <span>Desenvolvedor</span></div>
+            </div>
+        </div>
+    </section>
+    <!--Box com uma função Javascript-->
+    <section class="codePrism" id="codePrism">
+        <div class="max-width" style="width: 1000px; position: relative; top: -720px; left: 350px;">
+            <pre style="max-width: 800px;">
+                <code class="language-javascript">
+                    //function for greetings
+                    function welcomePortfolio(){
+                        let myPortfolio = 'my portfolio';
+                        let enjoy = 'i hope you enjoy :)';
+                        console.log(`Welcome ${myPortfolio}, ${enjoy}`);
+                    }
+                                            
+                    welcomePortfolio();
+                    // Welcome to my portfolio, i hope you enjoy :)
+                </code>
+            </pre>
+        </div>           
+    </section>
+    <!--Serviços-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Serviços</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="/Img/programming.png" alt="programacao icon" style="position: relative; left:150px; top: 20px;">
+                </div>
+                <div class="column right" style="position: relative;bottom: 200px; left: 500px;">
+                    <div class="text">Sou Arthur e estudo <span>progamação</span></div>
+                    <p>Sou uma pessoa extrovertida e apaixonada por aprender. Sempre estou em busca de novos conhecimentos e desafios, especialmente na área de programação. Meu entusiasmo pela tecnologia me levou a explorar diferentes linguagens de programação e ferramentas de desenvolvimento de software, e estou sempre aberto a novas oportunidades para aprimorar minhas habilidades.</p>
+                    <br>
+                    <p><b>Tecnologias que estudo: </b>Dart, Python, Go, SQL e Javascript.</p>
+                    <a href="/Download/Currículo Arthur andrade.pdf" download>Download CV</a> 
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!--Portifólio-->
+    <section class="portfolio" id="portfolio">
+        <div class="max-width">
+            <h2 class="title">Portfólio</h2>
+            <div class="portfolio-content">
+                <div class="card">
+                    <ion-icon name="construct-outline" style="width:60px; height: 60px;"></ion-icon>
+                    <p class="card-desc">Aqui é onde ficarão meus futuros projetos</p>
+                </div>
+                <div class="projeto-loja">
+                    <img src="/Img/LOJAVIRTUAL.png" alt="Foto do projeto LOJAVIRTUAL.COM" style="width: 1000px; height: 600px;">
+                </div>
+                <div class="text-loja">
+                    <p>É um projeto de um e-commerce com uma tela principal onde é exibido todos os produtos. Nele foi utilizado<span style="color:rgb(220, 100, 20)"> HTML </span> e <span style="color: rgb(16, 81, 179);"> CSS</span>.<p>
+                </div>
+                <div class="image-html-css">
+                    <img src="/Img/003-html.png" alt="HTML logo">
+                    <img src="/Img/004-css-3.png" alt="CSS logo">
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!--Contatos-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+               <div class="column left">
+                   <p>Se você tiver alguma dúvida, comentário ou oportunidade de trabalho pode entrar em contato comigo por minhas redes sociais abaixo:</p>
+
+                <div class="icons">
+                    <div class="row">
+                       <ion-icon name="person-outline"></ion-icon>
+                    <div class="info">
+                            <div class="head">Nome</div>
+                            <div class="sub-title">Arthur de Salles Andrade</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">arthursallesandrade@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <ion-icon name="logo-github"></ion-icon>
+                        <div class="info">
+                            <div class="head">GitHub</div>
+                            <div class="sub-title"><a href="https://github.com/arthraw">https://github.com/arthraw</a></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        <div class="info">
+                            <div class="head">Linkedin</div>
+                            <div class="sub-title"><a href="https://www.linkedin.com/in/arthur-andrade-a2358b25a/">https://www.linkedin.com/in/arthur-andrade</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <span>Criado por <a href="#">Arthur Andrade</a></span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</body>
+</html>
